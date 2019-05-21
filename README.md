@@ -18,8 +18,8 @@ It is strongly suggested that interested forensic monkeys first read the documen
 The document details the various iOS logs available, methods of generating and collecting those logs and how to use these scripts to extract forensically interesting information from them.
 
 These scripts were written for <b>Python3</b> (tested under Ubuntu 16.04 and macOS X Mojave) using test data from various <b>iOS12</b> devices. They do not require any third party Python libaries.
-<br><br>
-
+<br>
+Here is a usage summary of the available scripts:
 <table>
   <tr><td><b>Name</b></td><td><b>Description</b></td><td><b>Output</b></td><td><b>Usage Example</b></td></tr>
   <tr><td>sysdiagnose-sys.py</td><td>Extracts OS info from logs/SystemVersion/SystemVersion.plist</td><td>Command line</td><td>python3 sysdiagnose-sys.py -i SystemVersion.plist</td></tr>
