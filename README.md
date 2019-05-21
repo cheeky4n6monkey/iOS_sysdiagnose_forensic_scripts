@@ -1,9 +1,17 @@
 # iOS_sysdiagnose_forensic_scripts
 
+<br>
+<p align="center">
+<img src="log-monkey.png" alt="Picture of Apple Log Loving Monkey")
+</p>
+<br>
+
 iOS devices have the ability to create numerous logs containing forensically useful information.
 These logs may contain volatile information which should be collected ASAP during forensic processing.
 
-<b>Mattia Epifani</b> ([Twitter: @mattiaep](https://twitter.com/mattiaep)), <b>Heather Mahalik</b> ([Twitter: @HeatherMahalik](https://twitter.com/HeatherMahalik)) and <b>[@Cheeky4n6monkey](https://twitter.com/cheeky4n6monkey)</b> have written a document describing their initial research into these logs. This document is freely available from:<br> <b>https://www.for585.com/sysdiagnose</b><br>
+<b>Mattia Epifani</b> ([Twitter: @mattiaep](https://twitter.com/mattiaep)), <b>Heather Mahalik</b> ([Twitter: @HeatherMahalik](https://twitter.com/HeatherMahalik)) and <b>[@Cheeky4n6monkey](https://twitter.com/cheeky4n6monkey)</b> have written a document describing their initial research into these logs. This document is freely available from:
+<p align="center"><b>https://www.for585.com/sysdiagnose</b></p>
+
 Big Thankyous to <b>Peter Maaswinkel</b> and <b>Pranav Anand</b> for their additional testing and document review.
 
 It is strongly suggested that interested forensic monkeys first read the document BEFORE attempting to use these scripts.
