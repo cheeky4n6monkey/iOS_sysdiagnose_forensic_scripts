@@ -19,6 +19,7 @@ The document details the various iOS logs available, methods of generating and c
 
 These scripts were written for <b>Python3</b> (tested under Ubuntu 16.04 and macOS X Mojave) using test data from various <b>iOS12</b> devices. They do not require any third party Python libaries.
 <br>
+
 Here is a usage summary of the available scripts:
 <table>
   <tr><td><b>Name</b></td><td><b>Description</b></td><td><b>Output</b></td><td><b>Usage Example</b></td></tr>
