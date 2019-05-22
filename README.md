@@ -9,7 +9,7 @@
 iOS devices have the ability to create numerous logs containing forensically useful information.
 These logs may contain volatile information which should be collected ASAP during forensic processing.
 
-<b>Mattia Epifani</b> ([Twitter: @mattiaep](https://twitter.com/mattiaep)), <b>Heather Mahalik</b> ([Twitter: @HeatherMahalik](https://twitter.com/HeatherMahalik)) and <b>[@Cheeky4n6monkey](https://twitter.com/cheeky4n6monkey)</b> have written a document describing their initial research into these logs. This document is freely available from:
+<b>Mattia Epifani (Github: mattiaepi , [Twitter: @mattiaep](https://twitter.com/mattiaep)) </b>, <b>Heather Mahalik (Github: hmahalik , [Twitter: @HeatherMahalik](https://twitter.com/HeatherMahalik))</b> and <b>[@Cheeky4n6monkey](https://twitter.com/cheeky4n6monkey)</b> have written a document describing their initial research into these logs. This document is freely available from:
 <p align="center"><b>https://www.for585.com/sysdiagnose</b></p>
 
 Big Thankyous to <b>Peter Maaswinkel</b> and <b>Pranav Anand</b> for their additional testing and document review.
