@@ -91,7 +91,7 @@ with open(options.inputfile, 'r') as fp:
                 day = txts[2]
                 time = txts[3]
                 year = txts[4]
-                buildver = txts[15]
+                device = txts[15]
                 print(day + " " + month + " " + year + " " + time + " - " + device + " Starting Reunion Sync [line " + str(linecount) + "]")
             else:
                 #malformed message ... ignore
