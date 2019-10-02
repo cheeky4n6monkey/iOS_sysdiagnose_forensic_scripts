@@ -13,6 +13,7 @@ These logs may contain volatile information which should be collected ASAP durin
 <p align="center"><b>https://www.for585.com/sysdiagnose</b></p>
 
 Big Thankyous to <b>Peter Maaswinkel</b> and <b>Pranav Anand</b> for their additional testing and document review.
+Thanks also to <b>David Durvaux (ddurvaux)</b> for sharing his script - <b>sysdiagnose-appupdates.py</b>
 
 It is strongly suggested that interested forensic monkeys first read the document BEFORE attempting to use these scripts.
 The document details the various iOS logs available, methods of generating and collecting those logs and how to use these scripts to extract forensically interesting information from them.
@@ -49,5 +50,8 @@ Here is a usage summary of the available scripts:
   <tr><td>sysdiagnose-net-ext-cache.py</td><td>Extracts app name & GUID info from logs/Networking/com.apple.networkextension.cache.plist<br>Use -v option to print GUID info</td><td>Command line</td><td>python3 sysdiagnose-net-ext-cache.py -i com.apple.networkextension.cache.plist -v</td></tr>
   
   <tr><td>sysdiagnose-appconduit.py</td><td>Extracts connection info from logs/AppConduit/AppConduit.log.*</td><td>Command line</td><td>python3 sysdiagnose-appconduit.py -i AppConduit.log</td></tr>
+  
+  <tr><td>sysdiagnose-appupdates.py</td><td>Extracts update info from logs/appinstallation/AppUpdates.sqlite.db.*</td><td>Command line</td><td>python3 sysdiagnose-appupdates.py -i AppUpdates.sqlitedb</td></tr>
+  
 </table>
   
