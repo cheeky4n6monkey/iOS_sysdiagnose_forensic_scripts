@@ -98,6 +98,8 @@ with open(options.inputfile, 'rb', ) as fp:
             if 'enabled' in dic.keys():
                 enabled = str(dic['enabled'])    
                 print("enabled = " + str(dic['enabled']))
+            else:
+                enabled = None
             print("=============================\n")
             
             outputlist.append((ssid, bssid, netusage, countrycode, devname, mfr, serialnum, modelname, lastjoined, lastautojoined, enabled))
