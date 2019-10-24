@@ -10,7 +10,7 @@ import plistlib
 
 #import pprint
 
-version_string = "sysdiagnose-wifi-plist.py v2019-05-10 Version 1.0"
+version_string = "sysdiagnose-wifi-plist.py v2019-10-24 Version 1.0"
 
 if sys.version_info[0] < 3:
     print("Must be using Python 3! Exiting ...")
@@ -95,6 +95,7 @@ with open(options.inputfile, 'rb', ) as fp:
             if 'lastAutoJoined' in dic.keys():    
                 print("lastAutoJoined = " + str(dic['lastAutoJoined']))
                 lastautojoined = str(dic['lastAutoJoined'])
+            enabled = ""    
             if 'enabled' in dic.keys():
                 enabled = str(dic['enabled'])    
                 print("enabled = " + str(dic['enabled']))
