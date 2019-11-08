@@ -8,7 +8,7 @@ import sys
 from optparse import OptionParser
 import plistlib
 
-version_string = "sysdiagnose-networkinterfaces.py v2019-05-10 Version 1.0"
+version_string = "sysdiagnose-networkinterfaces.py v2019-11-08 Version 1.0"
 
 if sys.version_info[0] < 3:
     print("Must be using Python 3! Exiting ...")
@@ -35,9 +35,11 @@ with open(options.inputfile, 'rb') as fp:
             print("BSD Name = " + dictn['BSD Name'])
             if 'Active' in dictn.keys():
                 print("Active = " + str(dictn['Active']))
-            #print("IOMACAddress = " + str(dictn['IOMACAddress'])) # dictn['IOMACAddress'] = bytes type
-            print("IOMACAddress = " + dictn['IOMACAddress'].hex()) # string type
-            print("IOPathMatch = " + dictn['IOPathMatch'])
+            if 'IOMACAddress' in dictn.keys():
+                #print("IOMACAddress = " + str(dictn['IOMACAddress'])) # dictn['IOMACAddress'] = bytes type
+                print("IOMACAddress = " + dictn['IOMACAddress'].hex()) # string type
+            if 'IOPathMatch' in dictn.keys():
+                print("IOPathMatch = " + dictn['IOPathMatch'])
             
             for key, val in dictn['SCNetworkInterfaceInfo'].items():
                 if key == 'UserDefinedName':
