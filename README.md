@@ -12,9 +12,9 @@ These logs may contain volatile information which should be collected ASAP durin
 <b>Mattia Epifani (Github: mattiaepi , [Twitter: @mattiaep](https://twitter.com/mattiaep)) </b>, <b>Heather Mahalik (Github: hmahalik , [Twitter: @HeatherMahalik](https://twitter.com/HeatherMahalik))</b> and <b>[@Cheeky4n6monkey](https://twitter.com/cheeky4n6monkey)</b> have written a document describing their initial research into these logs. This document is freely available from:
 <p align="center"><b>https://www.for585.com/sysdiagnose</b></p>
 
-Big Thankyous to <b>Peter Maaswinkel</b> and <b>Pranav Anand</b> for their additional testing and document review.
-Thanks also to <b>David Durvaux (ddurvaux)</b> for sharing his script - <b>sysdiagnose-appupdates.py</b>
-Thanks to <b>Silvia Spallarossa <b> for her script testing and bug fixes for <b> sysdiagnose-networkinterfaces.py<b>.
+<p>Big Thankyous to <b>Peter Maaswinkel</b> and <b>Pranav Anand</b> for their additional testing and document review.<p>
+<p>Thanks also to <b>David Durvaux (ddurvaux)</b> for sharing his script - <b>sysdiagnose-appupdates.py</b><p>
+<p>Thanks to <b>Silvia Spallarossa<b> for her testing of the scripts and bug fixes for <b>sysdiagnose-networkinterfaces.py<b>.<p>
 
 It is strongly suggested that interested forensic monkeys first read the document BEFORE attempting to use these scripts.
 The document details the various iOS logs available, methods of generating and collecting those logs and how to use these scripts to extract forensically interesting information from them.
