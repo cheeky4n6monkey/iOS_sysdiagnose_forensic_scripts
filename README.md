@@ -14,7 +14,7 @@ These logs may contain volatile information which should be collected ASAP durin
 
 <p>Big Thankyous to <b>Peter Maaswinkel</b> and <b>Pranav Anand</b> for their additional testing and document review.<p>
 <p>Thanks also to <b>David Durvaux (ddurvaux)</b> for sharing his script - <b>sysdiagnose-appupdates.py</b><p>
-<p>Thanks to <b>Silvia Spallarossa<b> for her testing of the scripts and bug fixes for <b>sysdiagnose-networkinterfaces.py<b>.<p>
+<p>Thanks to <b>Silvia Spallarossa</b> for her testing of the scripts and bug fixes for <b>sysdiagnose-networkinterfaces.py</b>.<p>
 
 It is strongly suggested that interested forensic monkeys first read the document BEFORE attempting to use these scripts.
 The document details the various iOS logs available, methods of generating and collecting those logs and how to use these scripts to extract forensically interesting information from them.
